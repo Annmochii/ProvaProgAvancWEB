@@ -108,7 +108,8 @@ npm run web
 ```
 {
   "email:" "annama.silva@gmail.com"
-  "senha:" "ann@1234" 
+  "senha:" "ann@1234"
 }
 ```
 
+5. Também é possível abrir a pasta completa em uma mesma janela do Visual Studio Code, mas é importante que sejam abertos terminais diferentes para cada pasta e os referentes comandos sejam executados dentro deles.

@@ -77,7 +77,6 @@ class AuthController{
                 });
             }
             
-            console.log(1);
 
             const existingUser = await prisma.user.findFirst({
                 where: {
@@ -87,17 +86,14 @@ class AuthController{
 
             if (existingUser) {
                 return res.json({
-                    status: 409,
+                    status: 500,
                     message: "E-mail já está cadastrado!"
                 });
             }
 
-            console.log(2);
-
             // Criptografa a senha
             const hashedPassword = await bcrypt.hash(password, 10);
 
-            console.log(3);
 
             // Cria o novo usuário
             const newUser = await prisma.user.create({
@@ -108,14 +104,10 @@ class AuthController{
                 }
             });
 
-            console.log(4);
-
             const userFiltrado = new UserFiltrado(newUser.name as string, newUser.email, newUser.id);
-            
-            console.log(5);
 
             return res.json({
-                status: 201,
+                status: 200,
                 message: "Usuário criado com sucesso!",
                 user: userFiltrado
             });
