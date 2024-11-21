@@ -9,7 +9,9 @@
 Esse projeto contém os códigos da prova de Programação Avançada para Web, disciplina obrigatória do curso de Ciências da Computação na Universidade de Vila Velha.
 
 > Frameworks:  
->  [![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script) > ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) > ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+>  [![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
+> ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+> ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
 ## Como usar:
 
