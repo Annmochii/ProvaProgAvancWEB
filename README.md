@@ -103,3 +103,12 @@ npm run web
 1. Cada uma das pastas possui um arquivo **README.md** próprio com instruções e passo-a-passo de como o projeto foi desenvolvido, porém, o projeto foi feito para funcionar seguindo apenas as instruções deste arquivo, que está fora das pastas.
 2. Os arquivos devem ser executados na ordem **API (Back-End)** > **Aplicativo (Front-End)** para funcionar da maneira correta, sem erros.
 3. É importante instalar as extensões PrismaORM e dotenv antes de começar a executar o código da API, para evitar transtornos.
+4. Para acessar o aplicativo, é possível cadastrar um usuário próprio, e você poderá acessar as páginas interiores. Outra forma de entrar é através de um cadastro já feito, por exemplo com o usuário
+
+```
+{
+  "email:" "annama.silva@gmail.com"
+  "senha:" "ann@1234" 
+}
+```
+
