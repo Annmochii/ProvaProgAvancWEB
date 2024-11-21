@@ -78,7 +78,7 @@ Os erros podem estar relacionado ao PrismaORM, por esse motivo, uma forma de res
 
 ---
 
-## Pasta Aplicativo **(Front-End)**
+## Pasta **Aplicativo (Front-End)**
 
 ### 1. Instale as Dependências
 
@@ -95,3 +95,11 @@ Em seguida, você pode executar o projeto através do código:
 ```
 npm run web
 ```
+
+---
+
+## Considerações finais
+
+1. Cada uma das pastas possui um arquivo **README.md** próprio com instruções e passo-a-passo de como o projeto foi desenvolvido, porém, o projeto foi feito para funcionar seguindo apenas as instruções deste arquivo, que está fora das pastas.
+2. Os arquivos devem ser executados na ordem **API (Back-End)** > **Aplicativo (Front-End)** para funcionar da maneira correta, sem erros.
+3. É importante instalar a extensão do PrismaORM antes de começar a executar o código da API, para evitar transtornos.
